@@ -1,18 +1,140 @@
 /* ================
     Google Fonts  
 ===================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-
-
-
-
-
-
+/* ================
+    Common Styles  
+===================*/
+body{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1164px;
+}
+.butn {
+    color: #fff;
+    background: #E02C6D;
+    padding: 10px 24px;
+}
+.butn:hover {
+    background: #fff;
+    color: #E02C6D;
+    transition: all .5s ease-in;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+/* .row {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+} */
+/* ================
+    Header Area  
+===================*/
+#hero-area{
+    background: #2D25A0;
+    padding-top: 52px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.menu {
+    display: flex;
+}
+.list-item {
+    list-style-type: none;
+}
+li.list-item a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 36px;
+}
+li.list-item:first-child{
+    
+    padding-right: 0px;
+}
+.login-area {
+}
+.login {
+    text-decoration: none;
+}
+.login i {
+    margin-right: 8px;
+}
+.fa-bars{
+    color: #fff;
+    display: none;
+    font-size: 20px;
+}
+.fa-sign-in-alt {
+}
+.banner {
+}
+.col {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text {
+    padding-right: 92px;
+}
+.title {
+    font-size: 64px;
+    color: #fff;
+}
+.fa {
+}
+.fa-arrow-right {
+}
+ @keyframes tik-tok {
+            0%{
+                background-color: yellowgreen;
+                left: 0;
+                top: 0;
+            }
+            50%{
+                background: purple;
+                top: 320px;
+            }
+            100%{
+                top: 0;
+                left: 520px;
+                background: red;
+            }
+        }
+.banner-img img{
+     width: 556px;
+     padding-top: 68px;
+     transition: transform 1s ease-in;
+     -webkit-transition: transform 1s ease-in;
+     -moz-transition: transform 1s ease-in;
+     -ms-transition: transform 1s ease-in;
+     -o-transition: transform 1s ease-in;
+}
+.banner-img img:hover{
+    cursor: pointer;
+     transform: rotate(360deg);
+}
 
 
 
 
 
 /* ================
-    Google Fonts  
+     Area  
 ===================*/
