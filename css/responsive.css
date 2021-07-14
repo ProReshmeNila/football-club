@@ -1,0 +1,178 @@
+/* ====================
+    Responsive
+=================== */
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container{
+        width: 100%;
+       
+    }
+	li.list-item a {
+	padding-right: 18px;
+    }
+     .banner-text {
+	padding-right: 0;
+	padding-top: 52px;
+     padding-left: 20px;
+}
+.banner-img img{
+    width: 400px;
+}
+.title {
+	font-size: 36px;
+    }
+    .grid {
+	grid-template-columns: repeat(2, 1fr);
+}
+.blog-text{
+    margin: 0 15px;
+}
+.team-member {
+	margin: 15px;
+}
+.newsletter-form {
+}
+    
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.container{
+        width: 100%;
+        padding-left: 15px;
+    }
+	.menu {
+	display: none;
+    }
+    .fa-bars{
+        display: block;
+        padding-left: 20px;
+        font-size: 24px
+    }
+    .butn {
+	color: #fff;
+	background: #E02C6D;
+	padding: 8px 16px;
+}
+.login-area {
+	padding-right: 20px;
+}
+    .title {
+	font-size: 36px;
+    }
+    .banner .flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner-text {
+	padding-right: 0;
+	padding-top: 52px;
+    text-align: center;
+}
+.banner-img img{
+    width: 100%;
+}
+.grid {
+	grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+}
+.title2 {
+	margin-bottom: 43px;
+	font-size: 24px;
+}
+.blogs {
+	margin-top: 70px;
+	margin: 15px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.team-member {
+	margin: 15px;
+}
+.newsletter{
+    flex-wrap: wrap;
+    margin: 15px;
+}
+   #news-area {
+	margin-top: -74px;
+}
+input[type="email"] {
+	width: 97%;
+	padding: 12px 0;
+	margin-right: 0;
+	border: 2px solid #E02C6D;
+	margin-bottom: 15px;
+    padding-left: 2%;
+}
+
+.subs-btn {
+	width: 100%;
+	text-align: center;
+}
+.newsletter-form {
+	width: 100%;
+}
+footer {
+	margin-top: 50px;
+}
+.foter-logo img {
+	width: 50%;
+}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container{
+        width: 100%;
+    }
+	.menu {
+	display: none;
+}
+.blogs {
+	margin-top: 70px;
+	margin: 15px;
+}
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+}

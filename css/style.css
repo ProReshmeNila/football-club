@@ -129,10 +129,10 @@ li.list-item:first-child{
 }
 .blog-text {
    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   padding: 15px;
 }
 .thumbnail {
-    width: 336px;
-    margin: 16px;
+    width: 100%;
     margin-bottom: 0;
 }
 .blog-title {
